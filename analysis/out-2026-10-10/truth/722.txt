@@ -1,0 +1,84 @@
+Dash Python > Dash AG Grid > Column Definitions
+Introducing Plotly Cloud — The easiest way to publish your Dash apps. Learn more.
+
+ Column Definitions
+Define columns on the AgGrid component using the columnDefs property, provided as a list of dictionaries. Columns render in the order they are provided.
+
+See AG Grid documentation Column Properties for a list of all properties that can be applied to a column.
+
+Here, we define a grid with 3 columns:
+
+columnDefs = [
+    {'field': 'Name'},
+    {'field': 'PetalLength'},
+    {'field': 'PetalWidth'},
+]
+Use defaultColDef to set properties that all columns will inherit. Adding to the previous example, here we configure all columns to be editable:
+
+columnDefs = [
+    {'field': 'Name'},
+    {'field': 'PetalLength'},
+    {'field': 'PetalWidth'},
+],
+defaultColDef = {'editable': True}
+And here, we make all columns editable, except the Name column:
+
+columnDefs = [
+    {'field': 'Name', 'editable': False},
+    {'field': 'PetalLength'},
+    {'field': 'PetalWidth'},
+],
+defaultColDef = {'editable': True}
+The previous example makes all columns editable, except the Name column, because when the grid creates a column, it starts with the default column definition. It then adds properties defined via column types (see the next section) and then finally adds properties from the specific column definition.
+
+Basic Column Definitions
+Here's a complete example using ColumnDefs and defaultColDef. In this example, all columns are sortable, except for the Name column, which has sortable set to False.
+
+App
+Code
+Grouping Columns
+If you want the columns to be grouped, you can include them as children like so:
+
+# put the three columns into a group
+columnDefs = [
+    {
+        'headerName': 'Sepal',
+        'children': [
+            {'field': "SepalWidth", 'headerName': 'Width'},
+            {'field': "SepalLength", 'headerName': 'Length'},
+        ]
+    },
+]
+Here is an example using columns grouping:
+
+App
+Code
+Groups are explained in more detail in the section Column Groups.
+
+Accessing Nested Data Values
+The field property is used to access values from the row data. In most cases the field will be a property name. If, however, the row data contains nested dictionaries, you can use dot notation to reference deep property values.
+
+For example, if the row data has a dictionary property Sepal that contains the Width and Length of the Sepal, then use the field values Sepal.Width and Sepal.Length to display the Width and Length.
+
+rowData = [
+    {
+        'Name': 'Iris-setosa',
+        'Sepal': {
+            'Width': 3.5,
+            'Length': 5.1
+        },
+        'Petal': {
+            'Width': 0.2,
+            'Length': 1.4
+        },
+    },
+]
+
+columnDefs = [
+    {"field": "Name"},
+    # Uses dot notation to access nested properties
+    {"field": "Sepal.Width"},
+    {"field": "Sepal.Length"},
+    {"field": "Petal.Width"},
+    {"field": "Petal.Length"},
+]

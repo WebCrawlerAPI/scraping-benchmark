@@ -1,0 +1,47 @@
+Latest quotes
+get
+https://data.alpaca.markets/v1beta3/crypto/{loc}/latest/quotes
+The latest quotes endpoint returns the latest bid and ask prices for the crypto symbols provided.
+
+Path Params
+loc
+string
+enum
+required
+Crypto location.
+
+
+us
+Allowed:
+
+us
+
+us-1
+Query Params
+symbols
+string
+required
+A comma-separated list of crypto symbols.
+
+Responses
+
+200
+OK
+
+
+400
+One of the request parameters is invalid. See the returned message for details.
+
+401
+Authentication headers are missing or invalid. Make sure you authenticate your request with a valid API key.
+
+403
+The requested resource is forbidden.
+
+
+429
+Too many requests. You hit the rate limit. Use the X-RateLimit-... response headers to make sure you're under the rate limit.
+
+500
+Internal server error. We recommend retrying these later. If the issue persists, please contact us on Slack or on the Community Forum.
+

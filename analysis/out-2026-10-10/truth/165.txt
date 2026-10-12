@@ -1,0 +1,84 @@
+833-026-559-108
+DigiKey Part Number
+151-833-026-559-108-ND
+Manufacturer
+EDAC Inc.
+Manufacturer Product Number
+833-026-559-108
+Description
+CONN EDGE SGL FMALE 26POS 0.156
+Manufacturer Standard Lead Time
+18 Weeks
+Customer Reference
+Detailed Description
+26 Position Female Connector Non Specified - Single Edge Gold 0.156" (3.96mm) Green
+Datasheet
+ Datasheet
+EDA/CAD Models
+833-026-559-108 Models
+Product Attributes
+Type
+Description
+Select All
+Category
+Connectors, Interconnects
+Card Edge Connectors
+Edgeboard Connectors
+Manufacturer
+EDAC Inc.
+Series
+833
+Packaging
+Box
+Part Status
+Active
+Card Type
+Non Specified - Single Edge
+Gender
+Female
+Number of Positions/Bay/Row
+26
+Number of Positions
+26
+Card Thickness
+0.054" ~ 0.070" (1.37mm ~ 1.78mm)
+Number of Rows
+1
+Pitch
+0.156" (3.96mm)
+Read Out
+Single
+Features
+-
+Mounting Type
+Through Hole, Right Angle
+Termination
+Solder
+Contact Material
+Copper Alloy
+Contact Finish
+Gold
+Contact Finish Thickness
+10.0µin (0.25µm)
+Contact Type
+Cantilever
+Color
+Green
+Flange Feature
+Flush Mount, Top Opening, Threaded Insert, 4-40
+Operating Temperature
+-40°C ~ 125°C
+Material - Insulation
+Diallyl Phthalate (DAP)
+Termination Rows
+1
+Base Product Number
+833-026
+Documents & Media
+Resource Type	Link
+Datasheets	833 Series Ordering Guide
+Environmental Information	
+EDAC RoHS
+EDAC REACH
+CAD Models	833-026-559-108 Models
+Product Drawings	833-026-559-108 Drawing

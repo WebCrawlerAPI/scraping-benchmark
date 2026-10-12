@@ -1,0 +1,54 @@
+Statistics for Strava
+Self-hosted statistics generated using Strava data
+5.0
+•
+1 review
+•
+83 followers
+
+Visit website
+Activity tracking
+Strava is great for tracking your workouts, but its built-in analytics can feel a bit limited if you're a data nerd (like me). That's why I built Statistics for Strava—a tool that digs deeper into your activity data to show trends, visualizations, and alternative stats that Strava doesn’t surface. Whether you're a weekend warrior or a hardcore athlete, you'll find new ways to explore your performance. You can run it on your own server, own your data, and even extend it if you like.
+see less
+Overview
+Launches
+1
+Reviews
+1
+Alternatives
+Team
+Awards
+More
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Statistics for Strava gallery image
+Free
+Launch tags:
+Health & Fitness
+•
+Analytics
+•
+GitHub
+Launch Team / Built With
+Robin Ingelbrecht
+Flowbite
+Tailwind CSS
+Leaflet
+Show more
+What do you think? …
+
+
+Login to comment
+Robin Ingelbrecht
+Robin Ingelbrecht
+Statistics for Strava
+Statistics for Strava
+
+Maker
+📌
+Strava is great for tracking your workouts, but its built-in analytics can feel a bit limited if you're a data nerd (like me). That's why I built Statistics for Strava—a tool that digs deeper into your activity data to show trends, visualizations, and alternative stats that Strava doesn’t surface. Whether you're a weekend warrior or a hardcore athlete, you'll find new ways to explore your performance.

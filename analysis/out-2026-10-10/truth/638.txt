@@ -1,0 +1,27 @@
+Android Developers
+Develop
+Android Studio
+IDE guides
+Was this helpful?
+
+Version control basics
+
+bookmark_border
+Android Studio supports a variety of version control systems (VCSs), including Git, GitHub, CVS, Mercurial, Subversion, and Google Cloud Source Repositories.
+
+After importing your app into Android Studio, use the Android Studio VCS menu options to enable VCS support for the desired system, create a repository, import the new files into version control, and perform other version control operations.
+
+To enable VCS support, follow these steps:
+
+From the Android Studio VCS menu, select Enable Version Control Integration.
+From the menu, select a VCS to associate with the project root.
+Click OK.
+The VCS menu now displays a number of version control options based on the system you selected.
+
+Note: You can also use the File > Settings > Version Control menu option to set up and modify the version control settings.
+
+Was this helpful?
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.
+
+Last updated 2023-04-12 UTC.

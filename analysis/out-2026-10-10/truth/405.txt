@@ -1,0 +1,18 @@
+Get Help
+Submit a request for help with your PayPal Braintree sandbox or production account.
+
+If you'd like to sign up for a Braintree account or have questions about your application, please contact our Sales team.
+
+
+Select your issue
+Your selection helps route your request to the right team.
+
+Refunds
+You can choose to issue a refund via the Control Panel or the API, but can only refund a transaction with a Settling or Settled status. If you need to cancel a transaction that has an Authorized, Submitted for Settlement, or Settlement Pending status, you may be able to issue a void instead.
+
+Suggested Documentation
+Refunds, Voids, and Detached Credits article
+Acquirer Reference Numbers (Trace IDs)
+Refund Authorizations (Declined Refunds)
+Reporting - Decline Analysis
+Find a different issue

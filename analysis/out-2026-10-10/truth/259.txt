@@ -1,0 +1,38 @@
+Insights
+Insights and articles written by our team of world-class professionals
+
+MVW Cybersecurity Services
+Why Managed Devices Are Essential for a Secure Infrastructure? – A Cybersecurity Perspective
+May 28, 2025
+In today’s digital-first world, every endpoint—whether a laptop, smartphone, or tablet—is a potential gateway to your Organisation’s sensitive data. As remote and hybrid work models become the norm, the proliferation of devices connecting to corporate networks has created an expanded threat surface that is difficult to manage and even harder to secure. This is where managed devices emerge as a cornerstone of modern cybersecurity strategies.
+
+Read more >
+
+The Importance of Performing a Microsoft 365 Tenant Assessment
+December 18, 2024
+Microsoft 365 (M365) offers a powerful suite of tools that drive communication, productivity, and collaboration for organisations. However, securing and maintaining compliance in M365 is essential to protect sensitive data, adhere to regulatory requirements, and optimise the environment for specific organisational needs.
+In this blog, we explore the importance of a comprehensive Microsoft 365 Tenant Security and Compliance Assessment and the key areas it covers, highlighting the benefits of regularly evaluating and improving your M365 environment.
+
+Read more >
+
+Mental Health & Wellbeing in the workplace: Why it matters and what MVW is doing about it
+November 23, 2024
+In today’s fast-paced world, mental health has become a crucial aspect of overall wellbeing, particularly in the workplace. Our ability to thrive at work depends
+
+Read more >
+
+How to successfully run a remote organisation
+October 28, 2024
+When I started MVW I never believed that it was necessary to have an expensive office in London, force staff to commute or work a
+
+Read more >
+
+Email Hygiene: Essential Practices for Your Organisation
+August 28, 2024
+In today’s digital landscape, email continues to play a key part in business communication, but it also represents a significant attack vector for cyber threats. Phishing attacks, spoofing, and other social engineering-based attacks can easily compromise an organisation’s security if proper email hygiene practices aren’t in place.
+
+Read more >
+
+Fortifying Your Defences: A Comprehensive Guide to Ransomware Attack Preparation
+July 25, 2024
+Ransomware attacks continue to pose a formidable threat to organisations of all sizes. These malicious attacks can encrypt critical data, disrupt operations, and demand hefty ransoms, leaving businesses vulnerable and potentially crippled.

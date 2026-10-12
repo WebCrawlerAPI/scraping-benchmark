@@ -1,0 +1,56 @@
+Home / Guides / Technical / Web Content Accessibility Guidelines
+Web Content Accessibility Guidelines
+#WCAGguidelines #wcag
+Photo of Author
+Casandra Visser
+Author
+Photo of Researcher
+Danny Trichter
+Researcher
+Photo of Expert
+Gareth Ford Williams
+Insights from
+ August 1, 2024
+ 5-7 minutes
+Our methodology
+Our unique research methodology for digital accessibility combines user testing, feature analysis, and hands-on experience. We review various remediation software and platforms to provide top recommendations.
+
+Written and researched for humans by humans
+Photo of Author
+Casandra Visser
+Author
+Photo of Researcher
+Danny Trichter
+Researcher
+Photo of Expert
+Gareth Ford Williams
+Expertly reviewed by
+Comments:
+1
+On this page
+What is the W3C
+WAI – Web Accessibility Initiative
+The WCAG
+WCAG Worldwide: Legal Obligations Per Country
+Top solutions
+Accessibe Logo
+UserWay Logo
+This is a complete guide to the WCAG (Web Content Accessibility Guidelines) in 2025.
+
+If you’ve just started delving into your web accessibility compliance journey, you will no doubt have come across mentions of WCAG.
+
+WCAG is what all global disability acts are based on when it comes to web accessibility, which means it’s essential to have an in-depth understanding of these requirements. Doing so can enhance the inclusivity of your site and help you avoid lawsuits and fines, which start from $55,000 to $150,000.
+
+Let’s dive in.
+
+We will talk about
+What is the W3C
+WAI – Web Accessibility Initiative
+The WCAG
+WCAG Worldwide: Legal Obligations Per Country
+Key Takeaways
+Global disability acts like the ADA, AODA, and the EAA refer to WCAG when outlining their web accessibility standards and requirements.
+WCAG is based on four core principles. Content must be Perceivable, Operable, Understandable, and Robust.
+There are three different compliance levels associated with WCAG, namely Level A, AA, and AAA. Level AA is what most businesses should strive to achieve.
+The latest version of the guidelines is WCAG 2.2.
+Accessibility is a legal requirement in many regions and failure to adhere to the WCAG guidelines can result in costly fines, lawsuits, and brand damage.

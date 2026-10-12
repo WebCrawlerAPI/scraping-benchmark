@@ -1,0 +1,194 @@
+{
+ "951": [
+  "hero_header_intro",
+  "Missing \"Car abo - Car subscriptions\" title, \"Your company e-mail\" form, and card headings \"Easy to use\", \"Fully digital\", \"Save up to 40 %\""
+ ],
+ "725": [
+  "tables_lists_data",
+  "Missing price/spec listing: \"Кондиционер KingHome KWH09AWAXB-K6DNA3B\", \"Мощность: 2.5\", \"1 800 руб.СУПЕРЦЕНА!\", \"Настенный Cosmo Inverter R3"
+ ],
+ "712": [
+  "related_comments_footer_content",
+  "Missing trailing company block: \"Household and Institutional Furniture Manufacturing\", \"3,153 Followers\", \"CHAQUE GESTE CHEZ FINADORM\", \"Tél"
+ ],
+ "827": [
+  "related_comments_footer_content",
+  "Missing author bio tail and contact block: \"A native of the DC area\", \"University of Maryland\", \"Coral Gables, Florida\", \"(305) 704-7055\", \""
+ ],
+ "648": [
+  "related_comments_footer_content",
+  "Missing article metadata/tags footer: \"Por Comunicación LEI\", \"Servicios veterinarios\", \"Test de Coggins\", plus breadcrumb \"Home Blog Tag - "
+ ],
+ "638": [
+  "nav_menu_boilerplate",
+  "Missing breadcrumb and footer boilerplate: \"Android Developers Develop Android Studio IDE guides\", \"Was this helpful?\", \"Content and code sa"
+ ],
+ "605": [
+  "related_comments_footer_content",
+  "Missing author bio and trailing related posts: \"I am an editor and co-founder of halfwheel.com\", \"Related Posts\", \"Brick House Ciento Por Ci"
+ ],
+ "546": [
+  "nav_menu_boilerplate",
+  "Missing nav and contact boilerplate: \"Emergency Services & Public Safety\", \"View Full Menu\", \"Toggle Section\", \"Contact Us\", \"City Hall 910 "
+ ],
+ "662": [
+  "truncated_long_page",
+  "md stops at \"About\" heading; missing \"About InsureMyTrip\" paragraph, \"SOURCE InsureMyTrip\", \"Related Articles\", \"Travel Insurance for Japan\""
+ ],
+ "889": [
+  "truncated_long_page",
+  "md ends after policy link; missing trailing teaser sections \"Our partners\", \"Training courses\", \"Research\", \"Uplands\", \"Gamekeepers Welfare "
+ ],
+ "623": [
+  "related_comments_footer_content",
+  "Missing trailing CTA block: \"Don't leave your job search to chance\", \"Register today and we will tailor our search to your unique skills\", \""
+ ],
+ "669": [
+  "related_comments_footer_content",
+  "Missing testimonials and company news tail: \"Matt was fantastic through this whole process\", \"Company news\", \"SECURA Insurance publishes 202"
+ ],
+ "656": [
+  "nav_menu_boilerplate",
+  "breadcrumb \"Browse:Home…\", gallery labels PHOTOS/SITEPLAN"
+ ],
+ "748": [
+  "hero_header_intro",
+  "product header: reviews, breadcrumb, price, Add to Cart"
+ ],
+ "230": [
+  "hero_header_intro",
+  "article title, byline, date, disclaimer"
+ ],
+ "362": [
+  "hero_header_intro",
+  "hero intro \"At Digital Infuzion, we love taking on tough challenges\""
+ ],
+ "767": [
+  "related_comments_footer_content",
+  "author block and bio"
+ ],
+ "347": [
+  "hero_header_intro",
+  "purchase widget: price, Add to cart, payment options"
+ ],
+ "778": [
+  "tables_lists_data",
+  "stats block: Last Trade, 52-Wk range, returns, expense ratio"
+ ],
+ "523": [
+  "related_comments_footer_content",
+  "author/expert block, methodology, comments"
+ ],
+ "914": [
+  "nav_menu_boilerplate",
+  "breadcrumb, read time, Table of Contents"
+ ],
+ "722": [
+  "other",
+  "body absent; only Plotly header/footer links (columnDefs content missing)"
+ ],
+ "233": [
+  "different_page_content",
+  "md is disease-listing page; truth is doctor profile"
+ ],
+ "277": [
+  "other",
+  "md mostly related-article/Taboola widgets; article body missing"
+ ],
+ "797": [
+  "related_comments_footer_content",
+  "Energy Data Studio access / newsletter subscribe text"
+ ],
+ "327": [
+  "nav_menu_boilerplate",
+  "tab nav \"Overview Launches Reviews…\", Built With tags"
+ ],
+ "147": [
+  "hero_header_intro",
+  "title and intro paragraph; md starts mid-body"
+ ],
+ "176": [
+  "different_page_content",
+  "md is different live-in care page variant than truth (Home care in Emsworth)"
+ ],
+ "323": [
+  "hero_header_intro",
+  "headline and updated-date byline"
+ ],
+ "964": [
+  "hero_header_intro",
+  "section label, date, author, share links"
+ ],
+ "705": [
+  "nav_menu_boilerplate",
+  "\"Lire la suite\" link labels, title suffix"
+ ],
+ "157": [
+  "different_page_content",
+  "md is newer revision of statistics article"
+ ],
+ "165": [
+  "tables_lists_data",
+  "spec table: mounting type, contact material, positions"
+ ],
+ "801": [
+  "different_page_content",
+  "md shows FY2025 revision (different exec name/figures)"
+ ],
+ "366": [
+  "tables_lists_data",
+  "event calendar rendered as table rows breaking word matches"
+ ],
+ "66": [
+  "hero_header_intro",
+  "headline, updated date, byline"
+ ],
+ "383": [
+  "tables_lists_data",
+  "API Path/Query params and response codes"
+ ],
+ "405": [
+  "tabs_accordion_hidden",
+  "Select your issue / Refunds accordion content"
+ ],
+ "209": [
+  "other",
+  "link-in-bio buttons dropped"
+ ],
+ "692": [
+  "related_comments_footer_content",
+  "You may also like, reviews, payment badges"
+ ],
+ "756": [
+  "tables_lists_data",
+  "revision history table rows"
+ ],
+ "259": [
+  "truncated_long_page",
+  "md ends after M365 Tenant Assessment; later sections missing"
+ ],
+ "607": [
+  "hero_header_intro",
+  "service-area intro and quote CTA"
+ ],
+ "632": [
+  "hero_header_intro",
+  "order/reserve buttons header"
+ ],
+ "753": [
+  "nav_menu_boilerplate",
+  "top nav: Home, Companies, Overview, Salaries…"
+ ],
+ "586": [
+  "tables_lists_data",
+  "product listing prices and category menu"
+ ],
+ "893": [
+  "tabs_accordion_hidden",
+  "collapsed INDEX table of contents"
+ ],
+ "84": [
+  "nav_menu_boilerplate",
+  "Visit Us address, phone, hours"
+ ]
+}

@@ -1,0 +1,12 @@
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health.
+Learn more: PMC Disclaimer | PMC Copyright Notice
+Springer Nature - PMC COVID-19 Collection logo
+TechTrends. 2023 Apr 24:1–11. Online ahead of print. doi: 10.1007/s11528-023-00850-0
+Exploring an Innovative Approach to Enhance Discussion Board Engagement
+Hanadi Hamadi 1,✉, Aurora Tafili 2, Frederick R Kates 3, Samantha A Larson 3, Carlyn Ellison 4, Jihee Song 5
+Author information
+Article notes
+Copyright and License information
+PMCID: PMC10124679  PMID: 37362586
+Abstract
+Online discussion boards are a standard learning management system (LMS) instructional tool used in the emerging online learning pedagogy. This pilot study examined an innovative approach that differs from how discussion boards have been commonly used. Using a retrospective, cross-sectional design, we evaluated the effect of shifting from traditional teacher and student-generated prompts to using student-generated videos with higher-order discussion questions to gauge student perceptions of peer feedback and engagement.

@@ -1,0 +1,13 @@
+{
+  "name": "benchmarkcrawlers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Benchmarks WebCrawlerAPI content-extraction quality against firecrawl/scrape-content-dataset-v1",
+  "scripts": {
+    "bench": "node benchmark.mjs"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
