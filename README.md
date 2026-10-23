@@ -2,7 +2,7 @@
 
 Results: http://webcrawlerapi.com/benchmarks/scrape-quality
 
-Compares markdown extraction quality of web scraping APIs (WebCrawlerAPI, Firecrawl, Jina, Crawl4AI, Spider, Crawlbase, Context.dev)
+Compares markdown extraction quality of web scraping APIs (WebCrawlerAPI, Firecrawl, Jina, Crawl4AI, Spider, Crawlbase, Context.dev, DeepSeek Fetch)
 on the public [firecrawl/scrape-content-dataset-v1](https://huggingface.co/datasets/firecrawl/scrape-content-dataset-v1) dataset.
 The methodology follows Firecrawl's published benchmark ("Scrape coverage and quality").
 
@@ -30,7 +30,7 @@ export WEBCRAWLER_API_KEY=...   # plus the key for each provider you test
 node benchmark.mjs --provider webcrawlerapi --limit 50
 ```
 
-Provider env vars: `WEBCRAWLER_API_KEY`, `FIRECRAWL_API_KEY`, `JINA_API_KEY`, `CRAWL4AI_API_KEY`, `SPIDER_API_KEY`, `CRAWLBASE_TOKEN`, `CONTEXT_DEV_API_KEY`.
+Provider env vars: `WEBCRAWLER_API_KEY`, `FIRECRAWL_API_KEY`, `JINA_API_KEY`, `CRAWL4AI_API_KEY`, `SPIDER_API_KEY`, `CRAWLBASE_TOKEN`, `CONTEXT_DEV_API_KEY`, `DEEPSEEK_API_KEY`.
 
 ```bash
 node benchmark.mjs --provider firecrawl --limit 50
@@ -38,6 +38,7 @@ node benchmark.mjs --provider jina --limit 50
 node benchmark.mjs --provider crawl4ai --limit 50 --rpm 100 --timeout 120000
 node benchmark.mjs --provider spider --limit 50
 node benchmark.mjs --provider crawlbase --limit 50
+node benchmark.mjs --provider deepseek --limit 50 --rpm 240   # Fetch API, account limit 5 QPS
 node benchmark.mjs --provider context-dev --limit 50 --concurrency 1   # free tier: 1 in-flight request
 ```
 

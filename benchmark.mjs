@@ -24,7 +24,7 @@
 //   node benchmark.mjs [options]
 //
 // Options:
-//   --provider <name>      webcrawlerapi | firecrawl | context-dev | jina | crawl4ai | spider | crawlbase (default: webcrawlerapi)
+//   --provider <name>      webcrawlerapi | firecrawl | context-dev | jina | crawl4ai | spider | crawlbase | deepseek (default: webcrawlerapi)
 //   --dataset <url|path>   CSV dataset location (default: HF raw v1 CSV)
 //   --limit <n>            Only benchmark the first n rows (default: all)
 //   --offset <n>           Skip the first n rows before applying --limit (default: 0)
@@ -46,6 +46,7 @@
 //   crawl4ai:      CRAWL4AI_API_KEY env var.
 //   spider:        SPIDER_API_KEY env var.
 //   crawlbase:     CRAWLBASE_TOKEN env var.
+//   deepseek:      DEEPSEEK_API_KEY env var (Fetch API).
 //   context-dev:   CONTEXT_DEV_API_KEY env var (context.dev).
 //   //
 // This script only RUNS the benchmark when executed directly; it does not run on import.
@@ -261,6 +262,37 @@ const PROVIDERS = {
       }
 
       return text;
+    }
+  },
+
+  deepseek: {
+    envKey: "DEEPSEEK_API_KEY",
+    fallbackKey: null,
+    defaultBaseUrl: "https://api.deepseek.com",
+    // DeepSeek Fetch API: POST /v1/tools/fetch { url } -> { title, content } (markdown).
+    // Errors are OpenAI-style { error: { message, type, code } }. No cache/main-content params.
+    // Account QPS limit is 5, so use --rpm 300 or lower and keep --concurrency small.
+    async scrape({ baseUrl, apiKey, url, timeout }) {
+      const res = await fetchWithTimeout(
+        `${baseUrl}/v1/tools/fetch`,
+        { method: "POST", headers: makeHeaders(apiKey), body: JSON.stringify({ url }) },
+        timeout
+      );
+
+      const json = await res.json().catch(() => null);
+
+      if (!res.ok || !json || json.error) {
+        const message =
+          (json && json.error && (json.error.message || json.error.code)) ||
+          `HTTP ${res.status} ${res.statusText}`;
+        throw new Error(`[${res.status}] ${message}`);
+      }
+
+      if (typeof json.content !== "string" || json.content.length === 0) {
+        throw new Error("Markdown request succeeded but no markdown was returned.");
+      }
+
+      return json.content;
     }
   },
 
@@ -487,7 +519,7 @@ function parseArgs(argv) {
 function printHelp() {
   console.log(`Usage: node benchmark.mjs [options]
 
-  --provider <name>       webcrawlerapi | firecrawl | context-dev | jina | crawl4ai | spider | crawlbase (default: webcrawlerapi)
+  --provider <name>       webcrawlerapi | firecrawl | context-dev | jina | crawl4ai | spider | crawlbase | deepseek (default: webcrawlerapi)
   --dataset <url|path>    CSV dataset location (default: ${DEFAULT_DATASET_URL})
   --limit <n>             Only benchmark the first n rows
   --offset <n>            Skip the first n rows before applying --limit (default: 0)
@@ -501,7 +533,7 @@ function printHelp() {
   --fail-on-rate-limit    Stop on the first 429 response: no retry, no new rows started, partial results written, exit code 2
   --out-dir <path>        Output directory (default: ./results/<provider>-<timestamp>)
 
-Auth: WEBCRAWLER_API_KEY, FIRECRAWL_API_KEY, CONTEXT_DEV_API_KEY (context-dev), JINA_API_KEY, CRAWL4AI_API_KEY, SPIDER_API_KEY or CRAWLBASE_TOKEN env var, depending on --provider.`);
+Auth: WEBCRAWLER_API_KEY, FIRECRAWL_API_KEY, CONTEXT_DEV_API_KEY (context-dev), JINA_API_KEY, CRAWL4AI_API_KEY, SPIDER_API_KEY or CRAWLBASE_TOKEN or DEEPSEEK_API_KEY env var, depending on --provider.`);
 }
 
 // -------------------- dataset --------------------
